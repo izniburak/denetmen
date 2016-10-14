@@ -49,6 +49,7 @@ require "denetmen"
 - lower?
 - upper?
 - slug?
+- time_string?
 - credit_card?
 - phone?(locale = "en-US")
 

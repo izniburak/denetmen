@@ -156,4 +156,8 @@ class String
     }
     Check.it self.match(matches[matches.has_key?(locale) ? locale : "en-US"])
   end
+  # time string validation
+  def time_string?
+    Check.it self.match(/^(2[0-3]|[01]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$/)
+  end
 end

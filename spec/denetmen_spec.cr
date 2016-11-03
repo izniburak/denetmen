@@ -62,6 +62,9 @@ describe Denetmen do
     "05066072221".phone?("tr-TR").should eq(true)
     "+905066072221".phone?("tr-TR").should eq(true)
   end
+  it "time string test" do
+    "13:45:30".time_string?.should eq(true)
+  end
   it "base64 code test" do
     "d2UgbG92ZSBjcnlzdGFsIQ==".base64?.should eq(true)
   end

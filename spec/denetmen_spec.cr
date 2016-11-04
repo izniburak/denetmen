@@ -36,6 +36,10 @@ describe Denetmen do
     "Burak17".alphanum?.should eq(true)
     "İzni17Burak25Demirtaş".alphanum?("tr-TR").should eq(true)
   end
+  it "affirmative test" do 
+    "yes".affirmative? eq(true);
+    "y".affirmative? eq(true);
+  end
   it "numeric test" do
     "789716398719378213".numeric?.should eq(true)
     "a79837129879".numeric?.should eq(false)

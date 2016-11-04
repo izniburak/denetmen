@@ -51,7 +51,7 @@ require "denetmen"
 - slug?
 - credit_card?
 - phone?(locale = "en-US")
-
+- affirmative?
 
 ## Number Methods
 

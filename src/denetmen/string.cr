@@ -112,7 +112,7 @@ class String
   end
   # affirmative validation
   def affirmative?
-    Check.it.self.match(/^(?:1|t(?:rue)?|y(?:es)?|ok(?:ay)?)$/);
+    Check.it.self.match(/^(?:1|t(?:rue)?|y(?:es)?|ok(?:ay)?)$/)
   end
   # credit card validation
   def credit_card?

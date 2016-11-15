@@ -18,4 +18,14 @@ abstract struct Number
   def div?(n)
     self.divmod(n)[1] === 0
   end
+
+  # the number above n value validation
+  def above?(n)
+    self > n ? true : false
+  end
+
+  # the number below n value validation
+  def below?(n)
+    self < n ? true : false
+  end
 end

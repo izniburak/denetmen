@@ -60,6 +60,8 @@ require "denetmen"
 - negative?
 - zero?
 - div?(n)
+- above?(n)
+- below?(n)
 
 
 ## Contributing

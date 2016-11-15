@@ -28,6 +28,14 @@ describe Denetmen do
   it "divisibility test" do
     (10).div?(5).should eq(true)
   end
+  it "above test" do
+    10.above?(5).should eq(true)
+    17.above?(21).should eq(false)
+  end
+  it "below test" do
+    100.below?(200).should eq(true)
+    50.below?(25).should eq(false)
+  end
   it "alphabetic test" do
     "WeLoveCrystal".alpha?.should eq(true)
     "İzniBurakDemirtaş".alpha?("tr-TR").should eq(true)
@@ -36,7 +44,7 @@ describe Denetmen do
     "Burak17".alphanum?.should eq(true)
     "İzni17Burak25Demirtaş".alphanum?("tr-TR").should eq(true)
   end
-  it "affirmative test" do 
+  it "affirmative test" do
     "yes".affirmative?.should eq(true)
     "y".affirmative?.should eq(true)
   end

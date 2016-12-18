@@ -1,4 +1,12 @@
 # denetmen
+```
+      _                 _                        
+     | |               | |                       
+   __| | ___ _ __   ___| |_ _ __ ___   ___ _ __  
+  / _` |/ _ \ '_ \ / _ \ __| '_ ` _ \ / _ \ '_ \ 
+ | (_| |  __/ | | |  __/ |_| | | | | |  __/ | | |
+  \__,_|\___|_| |_|\___|\__|_| |_| |_|\___|_| |_|
+```
 
 [![Build Status](https://travis-ci.org/izniburak/denetmen.svg?branch=master)](https://travis-ci.org/izniburak/denetmen)
 
